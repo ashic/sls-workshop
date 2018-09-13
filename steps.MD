@@ -273,6 +273,18 @@ provider:
        - dynamodb:DeleteItem
      Resource: "arn:aws:dynamodb:${self:provider.region}:*:*" 
 ```
+
+Add a package.json to the root:
+
+```
+{
+    "name": "my-project"
+}
+```
+```
+yarn add aws-sdk
+```
+
 Add notes/dynamo-notes.js:
 
 ```
