@@ -112,7 +112,7 @@ let notes = [
 
 
 
-module.exports.getAllNotes = () => notes
+module.exports.getAllNotes = () => Promise.resolve(notes)
 ```
 
 ## 13. Add views/notes.js
