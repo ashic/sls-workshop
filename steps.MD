@@ -509,3 +509,9 @@ module.exports.authorise = async (event, context) => {
           authorizer: tokens_authorise
 ```
 
+
+==========================
+# Blow Up
+==========================
+
+sls remove
