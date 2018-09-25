@@ -5,7 +5,7 @@
 # Agenda
 =========================
 
-We will attempt to coder:
+We will attempt to cover:
 
 * Installing serverless framework.
 * Creating a project. 
